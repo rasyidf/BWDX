@@ -1,4 +1,4 @@
-import { Title, Text } from '@mantine/core';
+import { Title, Text, Button, Center } from '@mantine/core';
 
 export default function HomePage() {
   return (
@@ -12,6 +12,11 @@ export default function HomePage() {
       <Text color="dimmed" align="center" size="lg" sx={{ maxWidth: 580 }} mx="auto" mt="xl">
         We don&apos;t only design, we search for food
       </Text>
+      <Center>
+        <Button variant="outline" mt={10} color="blue" sx={{ display: 'block', mx: 'auto', mt: 'xl' }}>
+          Get started
+        </Button>
+      </Center>
     </>
   );
 }
